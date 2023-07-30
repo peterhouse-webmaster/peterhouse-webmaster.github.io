@@ -56,7 +56,7 @@ export const committeeData: committeeDataType[] = [
       "Hi! I'm Harry and in the men's and non binary welfare officer on the jcr this year. My welfare partner Reem and I have a lot of events planned to try and have some fun in the college, but in the mean time if you ever need a chat please come and find me. As for me, I'm a biology student who loves complaining, football, foraging and woodwork.",
   },
   {
-    title: 'Women and Non Binary Welfare Officer',
+    title: 'Women and Non-Binary Welfare Officer',
     name: 'Reem Alhasan',
     pictureUrl: 'committee/359644155_238995738599185_3964432758579682491_n.jpg',
     email: 'ra653@cam.ac.uk',

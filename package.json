@@ -14,6 +14,7 @@
     "@mdx-js/rollup": "^2.3.0",
     "@react-three/fiber": "^8.13.4",
     "@types/mdx": "^2.0.5",
+    "@types/three": "^0.154.0",
     "framer-motion": "^10.12.20",
     "framer-motion-3d": "^10.12.20",
     "jotai": "^2.2.2",

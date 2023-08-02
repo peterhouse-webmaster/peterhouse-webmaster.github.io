@@ -1,5 +1,6 @@
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
 import { useState, useRef, useEffect } from 'react'
+// import { useMotionValueEvent, useScroll } from 'framer-motion'
 
 
 export interface contentPageProps {
@@ -15,6 +16,7 @@ export function ContentPage(props: contentPageType) {
   const leftButtonRef = useRef<HTMLDivElement>(null)
   const rightButtonRef = useRef<HTMLDivElement>(null)
   const menuContainerRef = useRef<HTMLUListElement>(null)
+  
   // useEffect(()=>{
   //   console.log(props.data.length)
   // }, [])

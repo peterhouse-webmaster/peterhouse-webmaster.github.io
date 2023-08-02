@@ -1,7 +1,7 @@
 import { useScroll } from '@react-three/drei'
 import { useFrame } from '@react-three/fiber'
 import { useAnimate, useMotionValue, useMotionValueEvent } from 'framer-motion'
-import { useEffect, useRef } from 'react'
+import { useRef } from 'react'
 
 export default function ScrollManager() {
   const data = useScroll()
@@ -9,7 +9,7 @@ export default function ScrollManager() {
   const [_scope, animate] = useAnimate()
   const scrollOffset = useMotionValue(0)
   const animating = useRef(false)
-  const hyst = 0.01
+  // const hyst = 0.01
   let currScroll = 0
 
   data.fill.classList.add('top-0')

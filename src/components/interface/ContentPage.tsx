@@ -1,6 +1,6 @@
 import { BiChevronLeft, BiChevronRight } from 'react-icons/bi'
 import { useState, useRef, useEffect } from 'react'
-import { useInView, useMotionValueEvent, useScroll } from 'framer-motion'
+
 
 export interface contentPageProps {
   title: string
@@ -15,6 +15,9 @@ export function ContentPage(props: contentPageType) {
   const leftButtonRef = useRef<HTMLDivElement>(null)
   const rightButtonRef = useRef<HTMLDivElement>(null)
   const menuContainerRef = useRef<HTMLUListElement>(null)
+  // useEffect(()=>{
+  //   console.log(props.data.length)
+  // }, [])
 
   return (
     <>
@@ -26,7 +29,16 @@ export function ContentPage(props: contentPageType) {
               <div className='flex h-full w-6 items-center justify-center opacity-50 sm:hidden'>
                 <div className='flex'  ref={leftButtonRef} onClick={()=>{
                   const current = currentSubsection;
-                  setCurrentSubsection(current-1)
+                  // console.log((current - 1) % props.data.length)
+                  // setCurrentSubsection((current - 1) % props.data.length)
+                  //js modulo cannot do negative numbers
+                  if(current === 0){
+                    console.log(current)
+                    setCurrentSubsection(props.data.length-1)
+                  } else {
+                    
+                    setCurrentSubsection(current-1)
+                  }
                 }}>
                   <BiChevronLeft></BiChevronLeft>
                 </div>
@@ -40,7 +52,8 @@ export function ContentPage(props: contentPageType) {
               <div className='flex h-full w-6 items-center justify-center opacity-50 sm:hidden'>
                 <div className='flex' ref={rightButtonRef} onClick={()=>{
                   const current = currentSubsection;
-                  setCurrentSubsection(current+1)
+                  // console.log((current + 1) % props.data.length)
+                  setCurrentSubsection((current + 1) % props.data.length);
                 }}>
                   <BiChevronRight></BiChevronRight>
                 </div>

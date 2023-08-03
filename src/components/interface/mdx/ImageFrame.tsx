@@ -11,7 +11,7 @@ export default function ImageFrame(props: frameProps) {
         <img
           src={props.src}
           loading='lazy'
-          className='flex w:full sm:w-3/5 max-h-96 rounded object-contain drop-shadow-xl'
+          className='flex max-w-full sm:max-w-[60%] max-h-96 rounded object-contain drop-shadow-xl'
         ></img>
         {props.caption === undefined ? <></> : 
         <p className="flex font-lato font-light text-sm text-zinc-500">

@@ -4,10 +4,14 @@ import { BG } from './components/three/BG.tsx'
 import { FooterScrollTracker, HeaderScrollTracker } from './components/interface/ScrollTracker.tsx'
 import { Suspense, lazy } from 'react'
 
+
+
 import GeneralInformation from './components/interface/pages/GeneralInformation.tsx'
 import Prospective from './components/interface/pages/Prospective.tsx'
 import Freshers from './components/interface/pages/Freshers.tsx'
 import SportsAndSocieties from "./components/interface/pages/SportsAndSocieties.tsx"
+import ScrollManager from './components/three/ScrollManager.tsx'
+
 
 const Committee = lazy(() => import('./components/interface/Committee.tsx'))
 const Scene = lazy(() => import('./components/three/Scene'))
@@ -16,6 +20,7 @@ const Scene = lazy(() => import('./components/three/Scene'))
 export default function CanvasComponent() {
   const GPUTier = useDetectGPU()
   const nerf = GPUTier.tier <= 1 || (GPUTier.isMobile === undefined ? false : GPUTier.isMobile)
+  
   // const nerf = true
   return (
     <>
@@ -25,6 +30,7 @@ export default function CanvasComponent() {
         <BG></BG>
 
         <ScrollControls pages={6} damping={0.1}>
+          <ScrollManager></ScrollManager>
           <Scroll>
             <Suspense fallback={null}>
               <Scene nerf={nerf}></Scene>
@@ -32,6 +38,7 @@ export default function CanvasComponent() {
           </Scroll>
 
           <Scroll html>
+
             <section className='top-0 m-0 h-screen max-h-screen w-screen p-0'>
               <HeaderScrollTracker></HeaderScrollTracker>
             </section>
@@ -51,6 +58,7 @@ export default function CanvasComponent() {
               <SportsAndSocieties />
               <FooterScrollTracker></FooterScrollTracker>
             </section>
+
           </Scroll>
         </ScrollControls>
       </Canvas> 

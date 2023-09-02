@@ -10,7 +10,7 @@ import GeneralInformation from './components/interface/pages/GeneralInformation.
 import Prospective from './components/interface/pages/Prospective.tsx'
 import Freshers from './components/interface/pages/Freshers.tsx'
 import SportsAndSocieties from "./components/interface/pages/SportsAndSocieties.tsx"
-import ScrollManager from './components/three/ScrollManager.tsx'
+// import ScrollManager from './components/three/ScrollManager.tsx'
 
 
 const Committee = lazy(() => import('./components/interface/Committee.tsx'))
@@ -30,7 +30,7 @@ export default function CanvasComponent() {
         <BG></BG>
 
         <ScrollControls pages={6} damping={0.1}>
-          <ScrollManager></ScrollManager>
+          {/* <ScrollManager></ScrollManager> */}
           <Scroll>
             <Suspense fallback={null}>
               <Scene nerf={nerf}></Scene>

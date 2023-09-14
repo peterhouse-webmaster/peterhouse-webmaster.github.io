@@ -32,6 +32,14 @@ export const committeeData: committeeDataType[] = [
       '',
   },
   {
+    title: 'Treasurer',
+    name: 'Davit Minasyan',
+    pictureUrl: '',
+    email: '',
+    introduction:
+      '',
+  },
+  {
     title: 'Webmaster',
     name: 'Ye Heng Hor',
     pictureUrl: 'committee/359661206_285590480621987_3179539321317210821_n.jpg',
@@ -87,14 +95,14 @@ export const committeeData: committeeDataType[] = [
     introduction:
       "heyy I'm Sofía! I'm a first-year historian. I'm really excited about being the new freshers' rep for this coming year. I can't wait to organise freshers' week and welcome freshers into Peterhouse this October. I aim to make the transition into uni life as smooth and pleasant as possible for the upcoming freshers and am always here if help is needed!!",
   },
-  {
-    title: 'D&I Officer',
-    name: 'Sevval Ak',
-    pictureUrl: 'committee/',
-    email: '',
-    introduction:
-      '',
-  },
+  // {
+  //   title: 'D&I Officer',
+  //   name: 'Sevval Ak',
+  //   pictureUrl: 'committee/',
+  //   email: '',
+  //   introduction:
+  //     '',
+  // },
   {
     title: 'LGBTQ+ Officer',
     name: 'Robert Bell',
@@ -145,14 +153,7 @@ export const committeeData: committeeDataType[] = [
     introduction:
       "Hi everyone!! Im clemmie, a first year philosophy student and your new jcr ents officer! I can't wait to organise loads of super fun events for you all this coming year! From bops to some more chilled out live music, and working with your other new jcr officers to organise load more memorable events!!",
   },
-  {
-    title: '?',
-    name: 'Davit Minasyan',
-    pictureUrl: '',
-    email: '',
-    introduction:
-      '',
-  },
+  
   
 ]
 

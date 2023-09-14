@@ -26,8 +26,16 @@ export const committeeData: committeeDataType[] = [
   {
     title: 'Secretary',
     name: 'Jessica Uzoh',
-    pictureUrl: '',
+    pictureUrl: 'committee/ju.jpg',
     email: 'ju248@cam.ac.uk',
+    introduction:
+      '',
+  },
+  {
+    title: 'Treasurer',
+    name: 'Davit Minasyan',
+    pictureUrl: '',
+    email: 'dm936@cam.ac.uk',
     introduction:
       '',
   },
@@ -87,14 +95,14 @@ export const committeeData: committeeDataType[] = [
     introduction:
       "heyy I'm Sofía! I'm a first-year historian. I'm really excited about being the new freshers' rep for this coming year. I can't wait to organise freshers' week and welcome freshers into Peterhouse this October. I aim to make the transition into uni life as smooth and pleasant as possible for the upcoming freshers and am always here if help is needed!!",
   },
-  {
-    title: 'D&I Officer',
-    name: 'Sevval Ak',
-    pictureUrl: 'committee/',
-    email: '',
-    introduction:
-      '',
-  },
+  // {
+  //   title: 'D&I Officer',
+  //   name: 'Sevval Ak',
+  //   pictureUrl: 'committee/',
+  //   email: '',
+  //   introduction:
+  //     '',
+  // },
   {
     title: 'LGBTQ+ Officer',
     name: 'Robert Bell',
@@ -121,19 +129,19 @@ export const committeeData: committeeDataType[] = [
       Get ready for a year packed with international swaps, film nights, food, music and formals to celebrate our wonderful international community, so that Peterhouse can feel like a home away from home for every single one of us!
       Feel free to reach out if you have any questions or suggestions; I'm here to try my hardest to be a voice for all of us international students (and fight for the best possible holiday storage arrangements 🫡)`,
   },
-  {
-    title: 'Class Act Officer',
-    name: 'Lily Holmes',
-    pictureUrl: 'committee/359619166_984485529409779_1623056046965553805_n.jpg',
-    email: '',
-    introduction:
-      "Hey! I'm Lily (she/her) and I'm your class act officer on the JCR this year. Class act is an incredibly diverse campaign, inclusive of everyone from those educated at state schools to those with care experience - we represent the interests of anyone who has faced any form of economic, social or cultural disadvantage. Some of my main priorities this year are introducing more support for freshers and liaising more closely witth the central campaign, but of course I'm always happy to chat about any ideas or concerns you have, personally or institutionally.",
-  },
+  // {
+  //   title: 'Class Act Officer',
+  //   name: 'Lily Holmes',
+  //   pictureUrl: 'committee/359619166_984485529409779_1623056046965553805_n.jpg',
+  //   email: '',
+  //   introduction:
+  //     "Hey! I'm Lily (she/her) and I'm your class act officer on the JCR this year. Class act is an incredibly diverse campaign, inclusive of everyone from those educated at state schools to those with care experience - we represent the interests of anyone who has faced any form of economic, social or cultural disadvantage. Some of my main priorities this year are introducing more support for freshers and liaising more closely witth the central campaign, but of course I'm always happy to chat about any ideas or concerns you have, personally or institutionally.",
+  // },
   {
     title: 'Access Officer',
     name: 'Brianna Kasule',
-    pictureUrl: '',
-    email: '',
+    pictureUrl: 'committee/bk.jpg',
+    email: 'bn305@cam.ac.uk',
     introduction:
       '',
   },
@@ -145,14 +153,7 @@ export const committeeData: committeeDataType[] = [
     introduction:
       "Hi everyone!! Im clemmie, a first year philosophy student and your new jcr ents officer! I can't wait to organise loads of super fun events for you all this coming year! From bops to some more chilled out live music, and working with your other new jcr officers to organise load more memorable events!!",
   },
-  {
-    title: '?',
-    name: 'Davit Minasyan',
-    pictureUrl: '',
-    email: '',
-    introduction:
-      '',
-  },
+  
   
 ]
 

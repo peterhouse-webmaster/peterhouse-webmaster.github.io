@@ -36,7 +36,7 @@ export function CommitteeProfileCard({ name, pictureUrl, role, email, introducti
             <span className='flex font-lato text-base italic sm:text-xl sm:font-light'>{role}</span>
             <a
               href={`mailto:${email}`}
-              className='flex cursor-pointer font-lato text-base italic hover:text-orange-700 sm:text-xl sm:font-light'
+              className='flex cursor-pointer font-lato text-base italic text-orange-900 hover:text-orange-700 underline sm:text-xl sm:font-light'
             >
               {email}
             </a>

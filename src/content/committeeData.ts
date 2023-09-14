@@ -26,7 +26,7 @@ export const committeeData: committeeDataType[] = [
   {
     title: 'Secretary',
     name: 'Jessica Uzoh',
-    pictureUrl: '',
+    pictureUrl: 'committee/ju.jpg',
     email: 'ju248@cam.ac.uk',
     introduction:
       '',
@@ -35,7 +35,7 @@ export const committeeData: committeeDataType[] = [
     title: 'Treasurer',
     name: 'Davit Minasyan',
     pictureUrl: '',
-    email: '',
+    email: 'dm936@cam.ac.uk',
     introduction:
       '',
   },
@@ -129,19 +129,19 @@ export const committeeData: committeeDataType[] = [
       Get ready for a year packed with international swaps, film nights, food, music and formals to celebrate our wonderful international community, so that Peterhouse can feel like a home away from home for every single one of us!
       Feel free to reach out if you have any questions or suggestions; I'm here to try my hardest to be a voice for all of us international students (and fight for the best possible holiday storage arrangements 🫡)`,
   },
-  {
-    title: 'Class Act Officer',
-    name: 'Lily Holmes',
-    pictureUrl: 'committee/359619166_984485529409779_1623056046965553805_n.jpg',
-    email: '',
-    introduction:
-      "Hey! I'm Lily (she/her) and I'm your class act officer on the JCR this year. Class act is an incredibly diverse campaign, inclusive of everyone from those educated at state schools to those with care experience - we represent the interests of anyone who has faced any form of economic, social or cultural disadvantage. Some of my main priorities this year are introducing more support for freshers and liaising more closely witth the central campaign, but of course I'm always happy to chat about any ideas or concerns you have, personally or institutionally.",
-  },
+  // {
+  //   title: 'Class Act Officer',
+  //   name: 'Lily Holmes',
+  //   pictureUrl: 'committee/359619166_984485529409779_1623056046965553805_n.jpg',
+  //   email: '',
+  //   introduction:
+  //     "Hey! I'm Lily (she/her) and I'm your class act officer on the JCR this year. Class act is an incredibly diverse campaign, inclusive of everyone from those educated at state schools to those with care experience - we represent the interests of anyone who has faced any form of economic, social or cultural disadvantage. Some of my main priorities this year are introducing more support for freshers and liaising more closely witth the central campaign, but of course I'm always happy to chat about any ideas or concerns you have, personally or institutionally.",
+  // },
   {
     title: 'Access Officer',
     name: 'Brianna Kasule',
-    pictureUrl: '',
-    email: '',
+    pictureUrl: 'committee/bk.jpg',
+    email: 'bn305@cam.ac.uk',
     introduction:
       '',
   },

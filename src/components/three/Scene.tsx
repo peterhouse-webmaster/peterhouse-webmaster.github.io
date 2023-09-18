@@ -177,4 +177,4 @@ export default function Scene({ nerf }: SceneProps) {
   )
 }
 
-useGLTF.preload(import.meta.env.BASE_URL+'/Peterhouse JCR Merged with Backdrop-transformed.glb')
+useGLTF.preload(import.meta.env.BASE_URL+'Peterhouse JCR Merged with Backdrop-transformed.glb')

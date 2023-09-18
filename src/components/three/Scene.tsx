@@ -63,7 +63,7 @@ export default function Scene({ nerf }: SceneProps) {
   const hourHand = useRef<THREE.Mesh>(new THREE.Mesh())
   const minuteHand = useRef<THREE.Mesh>(new THREE.Mesh())
 
-  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL+'/Peterhouse JCR Merged with Backdrop-transformed.glb') as GLTFResult
+  const { nodes, materials } = useGLTF(import.meta.env.BASE_URL+'Peterhouse JCR Merged with Backdrop-transformed.glb') as GLTFResult
 
   // const curve = useMemo(()=>{
   //   new THREE.EllipseCurve()

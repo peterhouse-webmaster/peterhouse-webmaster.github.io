@@ -9,149 +9,151 @@ interface committeeDataType {
 export const committeeData: committeeDataType[] = [
   {
     title: 'President',
-    name: 'Daniel Harry',
-    pictureUrl: 'committee/356184260_244006398388842_6505025908043678348_n.jpg',
-    email: 'dh668@cam.ac.uk',
+    name: 'Ritika Singhal',
+    pictureUrl: 'committee/RS.jpg',
+    email: 'rs2236@cam.ac.uk',
     introduction:
-   "Hey guys! My name is Daniel, I'm a second year law student, and I am your JCR President for the coming year! I am really excited to lead the committee and increase the student body's imvolvement with matters regarding student life, wellbeing and study. If you ever have any ideas, queries, or just want to say hi, shout me!",
+      `Hi! My name is Ritika (she/her)  and I'm a second year HSPS student! I was previously the WMG Officer, and I'll be your President for this year. 
+
+      My main job is basically to represent the student body and advocate for your interests, while ensuring the smooth organisation of the JCR committee. 
+      
+      Please always feel free to reach out if I can help in any way whatsoever (I'm literally the least intimidating person you'd meet I promise).`
   },
   {
-    title: 'Vice President',
-    name: 'Ellie Breeze',
-    pictureUrl: 'committee/359795926_988464995916459_6251659997559342201_n.jpg',
-    email: 'eb869@cam.ac.uk',
+    title: 'Vice President and Externals Officer',
+    name: 'Jessica Uzoh',
+    pictureUrl: 'committee/JU.jpeg',
+    email: 'ju248@cam.ac.uk',
     introduction:
-     "hey! i'm ellie, a second year HSPS student and your new vice-president. i assist in the daily running of the JCR and liaise with the SU on behalf of the undergraduate population here. drop me a text if you have SU-related concerns or questions about the JCR!",
+      "Hi everyone, I’m your VP for the 2024-25 year! A lot of what I do is external-facing and involves representing your views as an undergrad body at the Student Union. I’m super excited to be in this position, and my dms are always open to suggestions about what we can do to make Cambridge a better student community for everyone. :))"
   },
   {
     title: 'Secretary',
-    name: 'Jessica Uzoh',
-    pictureUrl: 'committee/ju.jpg',
-    email: 'ju248@cam.ac.uk',
+    name: 'Vladimir Genkovski',
+    pictureUrl: 'committee/VG.jpeg',
+    email: 'vg386@cam.ac.uk',
     introduction:
-      '',
+      "Hey guys, I’m Vladimir (call me Vlad/Vladi) and am a first-year law student! As your new secretary, I’ll make sure to keep up with the newsletters (many thanks to whoever wrote that petfess) and help with the committee in achieving our goals!",
   },
   {
-    title: 'Treasurer',
-    name: 'Davit Minasyan',
-    pictureUrl: '',
-    email: 'dm936@cam.ac.uk',
+    title: 'Junior Treasurer',
+    name: 'Jack Matthews',
+    pictureUrl: 'committee/JM.jpg',
+    email: 'jm2541@cam.ac.uk',
     introduction:
-      '',
+      "Hi, I'm Jack. I'm a second year lawyer and I'll be your junior treasurer for this year. I hope to keep the JCR full of amenities and help the other roles with reimbursements.",
   },
   {
     title: 'Webmaster',
-    name: 'Ye Heng Hor',
-    pictureUrl: 'committee/359661206_285590480621987_3179539321317210821_n.jpg',
-    email: 'yhh35@cam.ac.uk',
+    name: 'Divye Baid',
+    pictureUrl: 'committee/DB.jpg',
+    email: 'db957@cam.ac.uk',
     introduction:
-      "Hi, I'm Ye Heng, a second year Engineer. I'll be managing all the IT related stuff for the JCR this year, and (hopefully) revamping the JCR website. Do contact me if you find any bugs in JCR related websites or if you don't get JCR emails etc.",
+      "Hi! I'm Divye, a first year phys natsci, and I'll be your Webmaster for 2024-25. Please let me know if you have issues with the mailing list, if you find bugs in the JCR website, or any IT related things! Outside studies, I love F1, comic books and cycling.",
   },
   {
     title: 'Charities, Campaigns, and Environmental Officer',
-    name: 'Emma Keeberg',
-    pictureUrl: 'committee/359775673_589705943243696_2389635207013987870_n.jpg',
-    email: 'ekbk2@cam.ac.uk',
+    name: 'Gemma Mae Heathcote',
+    pictureUrl: 'committee/GH.jpeg',
+    email: 'gmh50@cam.ac.uk',
     introduction:
-      "Hi guys, I'm Emma (she/her)! I'm a first year bio natsci and your Charities, Campaigns, and Environmental Officer (aka CCE Officer). I'm excited to be working on improving the college's sustainability as well as our own, and working with charities and campaigns in and around Cambridge!",
+      "Hello! I’m Gemma (she/her), a 2nd year classicist and your new CCE officer! I have a couple ideas for how to improve the college’s sustainability and our environment, as well as a few charitable events to support our wider community. I’m looking forward to collaborating with my fellow JCR officers, and bringing you all some great events these next terms!",
   },
   {
     title: 'Men and Non-Binary Welfare Officer',
-    name: 'Harry Howard',
-    pictureUrl: 'committee/356183604_6436738769727402_689987107437422763_n.jpg',
-    email: 'yhh35@cam.ac.uk',
+    name: 'Szymon Macuda',
+    pictureUrl: 'committee/SzM.jpg',
+    email: 'sm2795@cam.ac.uk',
     introduction:
-      "Hi! I'm Harry and in the men's and non binary welfare officer on the jcr this year. My welfare partner Reem and I have a lot of events planned to try and have some fun in the college, but in the mean time if you ever need a chat please come and find me. As for me, I'm a biology student who loves complaining, football, foraging and woodwork.",
+      "Hello I'm Szymon Macuda, a natural scientist and the Men and Non-Binary Welfare Officer. I enjoy drawing, SCUBA diving and judo as well as helping anyone with their welfare needs. So feel free to contact me if you would ever like to talk about something, or just come along to one of the welfare events hosted by me and Sarah.",
   },
   {
     title: 'Women and Non-Binary Welfare Officer',
-    name: 'Reem Alhasan',
-    pictureUrl: 'committee/359644155_238995738599185_3964432758579682491_n.jpg',
-    email: 'ra653@cam.ac.uk',
+    name: 'Sarah Misraoui',
+    pictureUrl: 'committee/SM.jpeg',
+    email: 'sm2794@cam.ac.uk',
     introduction:
-      "hi! i'm Reem (she/her), a first year bio natsci, and i'm this year's women's and non-binary welfare officer. i work with harry, the men's and nb welfare officer to support students with anything they might need advice on, as well as to run welfare events in college. i'm a massive fan of anything plant-related (if you need houseplant advice i'm your guy) and you can usually find me complaining about my contact hours around college. do feel free to message if you need a chat about anything- i'll always be happy to help!",
+      `Hello! My name is Sarah and I’m a first year history student here at Peterhouse, and your women’s and non-binary welfare officer! I love to read, paint and go on long walks - I'm always up for a random welfare walk to Grantchester if anyone ever wants to take me up on that offer. My door is always open if you have any issues or need any advice, whether personal or academic related - or if you just need someone to rant to! - so please don't hesitate to drop me an email whenever 🫶. If you have any suggestions or requests then I’d love to hear them!`,
   },
   {
-    title: 'Women and Marginalised Groups Officer',
-    name: 'Ritika Singhal',
-    pictureUrl: 'committee/356187161_1104134167230611_6986840250746354453_n.jpg',
-    email: 'rs2236@cam.ac.uk',
+    title: 'Women and Marginalised Genders Officer',
+    name: 'Anna Jacques',
+    pictureUrl: 'committee/AJ.jpeg',
+    email: 'aj699@cam.ac.uk',
     introduction:
-      "Hi! I'm Ritika (she/her), a first-year HSPSer, and I'm your 2023-24 WMG Officer. I'm super excited to hold fun socials and crucial discussions in my role, and generally just try to make the college more inclusive for women and marginalised genders! feel free message me or come talk to me in college (usually the ward library or so i've been told) if i can help in any way ❤",
+      "Hi! I’m Anna (she/her), I study history, and I am your Women and Marginalised Genders’ Officer for 2024-25! I hope to make our college as welcoming as possible to women and people of marginalised genders, and will be working with the other liberation officers to promote intersectionality. I will also be organising some fun events! Feel free to drop me a message or find me if you have any concerns or suggestions :)",
   },
   {
     title: 'Bar and Buttery Officer',
-    name: 'Layan Al-Azzawi',
-    pictureUrl: 'committee/359633970_649098083841322_749675171573396321_n.jpg',
-    email: 'la486@cam.ac.uk',
+    name: 'Lottie Chambers',
+    pictureUrl: 'committee/LC.png',
+    email: 'cc2215@cam.ac.uk',
     introduction:
-      "Hi, I'm Layan (she/her). I'm a first year law student and your new Bar and Buttery officer! I hope to hold loads more formals and of course keep the JCR stocked up with your favourite drinks and biscuits. Get in touch if you ever have any concerns or improvements you'd like to see in the servery or bar 🙂",
+      "Hey, I'm Lottie! I'm a first year law student and this year's bar and buttery officer. Really hoping to focus on making sure the bar and hall are being run in accordance with student preferences, and of course ensuring the biscuits are always restocked. So please do let me know of any changes you'd like to see!",
   },
   {
     title: 'Freshers Representative',
-    name: 'Sofia Sommerschield Torres',
-    pictureUrl: 'committee/359690038_800203168231269_2438848418835269108_n.jpg',
-    email: 'ss2966@cam.ac.uk',
+    name: 'Joe Rashford',
+    pictureUrl: 'committee/JR.PNG',
+    email: 'jr960@cam.ac.uk',
     introduction:
-      "heyy I'm Sofía! I'm a first-year historian. I'm really excited about being the new freshers' rep for this coming year. I can't wait to organise freshers' week and welcome freshers into Peterhouse this October. I aim to make the transition into uni life as smooth and pleasant as possible for the upcoming freshers and am always here if help is needed!!",
+      "Yo, I'm Joseph (but you can call me Joe). I'm a first year philosophy student, and I'm gassed to be the new freshers rep and to be able give a warm welcome to the new students coming to Peterhouse this October. I'm excited to organise freshers week and to create a smooth yet fun transition into life at Cambridge for the new freshers. I'm always available if you have any questions or if you need some help/assistance. Feel free to email me anytime :)"
   },
-  // {
-  //   title: 'D&I Officer',
-  //   name: 'Sevval Ak',
-  //   pictureUrl: 'committee/',
-  //   email: '',
-  //   introduction:
-  //     '',
-  // },
+  {
+    title: 'Disabilities and Illnesses Representative',
+    name: 'Iris Rogers',
+    pictureUrl: 'committee/IR.jpeg',
+    email: 'ir341@cam.ac.uk',
+    introduction:
+      "Hiya! I'm Iris and I'm a first-year English student (I intermitted, so I'm somewhere between first and second year), and I'll be repping disabilities and illnesses. I hope I can support anyone who's going through anything disability, mental or physical health related. Please message me if you want support, advice, or a chat. You'll probably be able to recognise me around college thanks to my huge platform heels!",
+  },
   {
     title: 'LGBTQ+ Officer',
-    name: 'Robert Bell',
-    pictureUrl: 'committee/356182619_955297969037475_2519451802381558709_n.jpg',
-    email: 'rdb48@cam.ac.uk',
+    name: 'Izzy Heap',
+    pictureUrl: 'committee/IH.jpg',
+    email: 'ih414@cam.ac.uk',
     introduction:
-      "Hi, I'm Robert (he/him) and I'm a second year HSPSer and your LGBTQ+ Officer for 2023/24. My job is basically to act as a liaison between the JCR and College if there any issues, to put on events and (hopefully!) some semi-regular drinks too. I'm also able to help with funding for binders and other gender-affirming items too! Outside of the JCR, you'll normally find me singing in the choir. I'm really looking forward to organising some amazing events for you all, and if you've any questions or issues please feel free to reach out!",
+      "Hi, I'm Izzy (she/her)- a first year muso and your LGBTQ+ Officer for this year! I'm here to help with any of your concerns whether on a personal level or a college level in any way that I can! I'm able to help with funding for gender-affirming items and I'm also available if you just need a cup of tea and a chat. I look forward to hopefully organising some events for all of you and to representing your needs in any way that I can. Feel free to message me about anything- no matter how small!"
   },
   {
     title: 'Ethnic Minorities Officer',
-    name: 'Marilyn Priyanka Gomes',
-    pictureUrl: 'committee/358851932_649428187098956_2632738168363721233_n.jpg',
-    email: 'mg2040@cam.ac.uk',
+    name: 'Sabrina Hossein',
+    pictureUrl: 'committee/SH.jpeg',
+    email: 'sh2279@cam.ac.uk',
     introduction:
-      "Hey everyone! My name's Marilyn (she/her), a second-year law student, and I'll be your Ethnic Minorities officer for 2023-24! I hope to be a familiar and welcoming face for ethnic minorities students at Peterhouse and will ensure that they all feel comfortable integrating. Please always feel free to message me about anything :))",
+      "Hi, I’m Sabrina and I’m the ethnic minorities officer for this year! I’m a lawyer of Afghan descent. I really hope to become a friendly face and make the college a more inclusive place for both current and prospective BME students :)",
   },
   {
     title: 'International Officer',
-    name: 'Maja Seremak',
-    pictureUrl: 'committee/357698514_305956711787013_5611270974284362590_n.jpg',
-    email: 'ms2836@cam.ac.uk',
+    name: "Ruxi Rusu",
+    pictureUrl: 'committee/RR.JPG',
+    email: 'rr684@cam.ac.uk',
     introduction:
-      `Hey everyone!! My name is Maja (she/her), I'm a second year Classicist from Poland, and this year's International Students' Officer 🤗
-      Get ready for a year packed with international swaps, film nights, food, music and formals to celebrate our wonderful international community, so that Peterhouse can feel like a home away from home for every single one of us!
-      Feel free to reach out if you have any questions or suggestions; I'm here to try my hardest to be a voice for all of us international students (and fight for the best possible holiday storage arrangements 🫡)`,
+      "Hi everyone! I'm a first-year lawyer interested in jurisprudence and human rights law. As an international student from Moldova, I am excited by the prospect of representing international students’ interests and believe I can positively contribute to fostering a stronger international community at Peterhouse. I enjoy playing the piano and learning about art history in my spare time."
   },
-  // {
-  //   title: 'Class Act Officer',
-  //   name: 'Lily Holmes',
-  //   pictureUrl: 'committee/359619166_984485529409779_1623056046965553805_n.jpg',
-  //   email: '',
-  //   introduction:
-  //     "Hey! I'm Lily (she/her) and I'm your class act officer on the JCR this year. Class act is an incredibly diverse campaign, inclusive of everyone from those educated at state schools to those with care experience - we represent the interests of anyone who has faced any form of economic, social or cultural disadvantage. Some of my main priorities this year are introducing more support for freshers and liaising more closely witth the central campaign, but of course I'm always happy to chat about any ideas or concerns you have, personally or institutionally.",
-  // },
+  {
+    title: 'Class Act Officer',
+    name: 'Lewis Guest',
+    pictureUrl: 'committee/LG.jpg',
+    email: 'lg685@cam.ac.uk',
+    introduction:
+      "Hey everyone, I'm Lewis :) I'm a second year HisPol student and your Class Act Officer for this year. I'm looking forward to addressing your needs when it comes to working class life at Peterhouse, which I know can be tough at times. Whether it's more formal support through college or just a chat, I'm always open to it so please get in touch. I'll also be in touch myself with a few suggestions of my own. Looking forward to working with you all :)"
+  },
   {
     title: 'Access Officer',
-    name: 'Brianna Kasule',
-    pictureUrl: 'committee/bk.jpg',
-    email: 'bn305@cam.ac.uk',
+    name: 'Keane Handley',
+    pictureUrl: 'committee/KH.png',
+    email: 'kh786@cam.ac.uk',
     introduction:
-      '',
+      "I’m Keane, a first year HSPS student, and I’m working with the outreach team and liberation officers to make the college more accessible for prospective and current students from underrepresented and disadvantaged backgrounds. I’m also a big football fan, love to write poetry and talk politics! Please feel free to contact me if you have any concerns, or suggestions on improving access at Peterhouse.",
   },
   {
     title: 'Entertainments Officer',
-    name: 'Clemmie Lawlor',
-    pictureUrl: 'committee/357789521_998083094535171_5668668309516282881_n.jpg',
-    email: 'cl934@cam.ac.uk',
+    name: 'Emily Richmond',
+    pictureUrl: 'committee/ER.jpeg',
+    email: 'er639@cam.ac.uk',
     introduction:
-      "Hi everyone!! Im clemmie, a first year philosophy student and your new jcr ents officer! I can't wait to organise loads of super fun events for you all this coming year! From bops to some more chilled out live music, and working with your other new jcr officers to organise load more memorable events!!",
+      "Hi, my name is Emily and I'm a first-year English Lit student. I'll be your Ents officer for the time being, so please look forward to some fun events!",
   },
   
   

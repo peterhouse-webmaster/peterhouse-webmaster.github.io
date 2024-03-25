@@ -10,6 +10,7 @@ import GeneralInformation from './components/interface/pages/GeneralInformation.
 import Prospective from './components/interface/pages/Prospective.tsx'
 import Freshers from './components/interface/pages/Freshers.tsx'
 import SportsAndSocieties from "./components/interface/pages/SportsAndSocieties.tsx"
+import JCRDocuments from './components/interface/pages/JCRDocuments.tsx'
 // import ScrollManager from './components/three/ScrollManager.tsx'
 
 
@@ -29,7 +30,7 @@ export default function CanvasComponent() {
       <Canvas dpr={[1, 2]} camera={{ fov: 45 }} shadows={'soft'} frameloop={nerf ? 'demand' : 'always'}>
         <BG></BG>
 
-        <ScrollControls pages={6} damping={0.1}>
+        <ScrollControls pages={7} damping={0.1}>
           {/* <ScrollManager></ScrollManager> */}
           <Scroll>
             <Suspense fallback={null}>
@@ -56,6 +57,9 @@ export default function CanvasComponent() {
             </section>
             <section className='top-[500vh]  m-0 h-screen max-h-screen w-screen p-0 '>
               <SportsAndSocieties />
+            </section>
+            <section className='top-[600vh] m-0 h-screen max-h-screen w-screen p-0 '>
+              <JCRDocuments />
               <FooterScrollTracker></FooterScrollTracker>
             </section>
 

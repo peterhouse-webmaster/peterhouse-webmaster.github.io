@@ -30,7 +30,7 @@ export default function CanvasComponent() {
       <Canvas dpr={[1, 2]} camera={{ fov: 45 }} shadows={'soft'} frameloop={nerf ? 'demand' : 'always'}>
         <BG></BG>
 
-        <ScrollControls pages={7} damping={0.1}>
+        <ScrollControls pages={nerf ? 7.5 : 7} damping={0.1}> 
           {/* <ScrollManager></ScrollManager> */}
           <Scroll>
             <Suspense fallback={null}>

@@ -49,20 +49,20 @@ export default function CanvasComponent() {
             <section className='top-[200vh]  m-0 h-screen max-h-screen w-screen p-0'>
               <Prospective></Prospective>     
             </section>
-            <section className='top-[300vh]  m-0 h-screen max-h-screen w-screen p-0 '>
+            <section className='top-[300vh]  m-0 h-screen max-h-screen w-screen p-0'>
               <Freshers></Freshers>
             </section>
-            <section className='top-[400vh]  m-0 h-screen max-h-screen w-screen p-0 '>
+            <section className='top-[400vh]  m-0 h-screen max-h-screen w-screen p-0'>
               <SportsAndSocieties />
             </section>
-            <section className='top-[500vh]  m-0 h-screen max-h-screen w-screen p-0 '>
+            <section className='top-[500vh]  m-0 h-screen max-h-screen w-screen p-0'>
               <JCRDocuments />
             </section>
-            <section className='top-[600vh] m-0 h-screen max-h-screen w-screen p-0 '>
+            <section className='top-[600vh] m-0 h-screen max-h-screen w-screen p-0'>
               <Committee></Committee>
               <FooterScrollTracker></FooterScrollTracker>
             </section>
-
+            
           </Scroll>
         </ScrollControls>
       </Canvas> 

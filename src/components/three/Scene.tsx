@@ -85,7 +85,7 @@ export default function Scene({ nerf }: SceneProps) {
   return (
     <>
       
-        <Bounds clip damping={6} margin={1}>
+        <Bounds clip margin={1}>
           <group dispose={null}>
             <mesh
               castShadow

@@ -25,7 +25,7 @@ export const committeeData: committeeDataType[] = [
     title: 'Secretary',
     name: 'Luke McVeigh',
     pictureUrl: 'committee/dummy-profile-pic.png',
-    email: 'vg386@cam.ac.uk',
+    email: 'lam233@cam.ac.uk',
     introduction: '',
   },
   {
